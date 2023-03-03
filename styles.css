@@ -1,0 +1,27 @@
+body{
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerbox{
+    margin-top: 30px;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 40px;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+a:visited, a:link{
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px ;
+}
